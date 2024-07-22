@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F2F129EA-F891-44FE-9018-AE097EF08F56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlyFishstick.Domain", "src\CurlyFishstick.Domain\CurlyFishstick.Domain.csproj", "{360CA682-A3B4-4586-AB77-2976CBABA63C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3CA85CE1-7F38-409C-A7F1-2EA2B4D75A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlyFishstick.Test", "test\CurlyFishstick.Test\CurlyFishstick.Test.csproj", "{C17DEA2B-0F78-41CD-9D05-DC5B35286C8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{360CA682-A3B4-4586-AB77-2976CBABA63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360CA682-A3B4-4586-AB77-2976CBABA63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360CA682-A3B4-4586-AB77-2976CBABA63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360CA682-A3B4-4586-AB77-2976CBABA63C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17DEA2B-0F78-41CD-9D05-DC5B35286C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17DEA2B-0F78-41CD-9D05-DC5B35286C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17DEA2B-0F78-41CD-9D05-DC5B35286C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17DEA2B-0F78-41CD-9D05-DC5B35286C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{360CA682-A3B4-4586-AB77-2976CBABA63C} = {F2F129EA-F891-44FE-9018-AE097EF08F56}
+		{C17DEA2B-0F78-41CD-9D05-DC5B35286C8D} = {3CA85CE1-7F38-409C-A7F1-2EA2B4D75A2A}
+	EndGlobalSection
+EndGlobal
