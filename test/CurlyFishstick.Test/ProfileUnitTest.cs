@@ -13,23 +13,23 @@ public class ProfileUnitTest
     public void ProfileInstanceIsNotNull()
     {
         // Arrange && act
-        var yuriProfile = new Profile("Yuri", "Melo");
+        var userProfile = new Profile("Yuri", "Melo");
 
         // Assert
-        Assert.IsNotNull(yuriProfile);
+        Assert.IsNotNull(userProfile);
     }
 
     [Test]
     public void ProfileInstanceWithEmptyLastname()
     {
         // Arrange
-        var yuriProfile = new Profile("Yuri", string.Empty);
+        var userProfile = new Profile(null, null);
 
         // Act
-        var validation = yuriProfile.Validate();
+        var validation = userProfile.Validate();
         
         // Assert
-        Assert.IsNotNull(yuriProfile);
+        Assert.IsNotNull(userProfile);
         Assert.That(validation, Is.Not.Null);
     }
 }
